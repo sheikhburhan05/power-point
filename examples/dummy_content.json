@@ -1,0 +1,15 @@
+{
+  "topic": "AI in Healthcare",
+  "mappings": [
+    {
+      "block_id": "0/shapes[0]",
+      "new_text": "AI Transforming Healthcare",
+      "reasoning": "Title replacement for healthcare topic"
+    },
+    {
+      "block_id": "0/shapes[1]",
+      "new_text": "Diagnostic accuracy improved by 30% with AI imaging\nPatient wait times reduced across clinics\nPredictive models enabling early intervention",
+      "reasoning": "Three bullet points matching original structure"
+    }
+  ]
+}

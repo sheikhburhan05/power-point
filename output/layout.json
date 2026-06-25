@@ -1,0 +1,1680 @@
+{
+  "source_file": "input/slide.pptx",
+  "slides": [
+    {
+      "slide_index": 0,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide1.xml",
+      "blocks": [
+        {
+          "block_id": "0/shapes[1]",
+          "role": "subtitle",
+          "original_text": "PITCH DECK",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 297.13,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 0.9753969816272966,
+          "top_in": 1.5339260717410323,
+          "width_in": 9.024603018372703,
+          "height_in": 7.361232502187226,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[2]",
+          "role": "body",
+          "original_text": "PITCH DECK",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 334.18,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 12.067647637795275,
+          "top_in": 3.8323950131233597,
+          "width_in": 10.149706911636045,
+          "height_in": 8.289022309711287,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[3]",
+          "role": "body",
+          "original_text": "STRATEGIC CONSULTING",
+          "char_limit": 25,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 29.19,
+            "bold": true,
+            "italic": null,
+            "alignment": "right"
+          },
+          "left_in": 13.1145395888014,
+          "top_in": 9.762824803149606,
+          "width_in": 5.7871052055993,
+          "height_in": 0.4439446631671041,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[4]",
+          "role": "body",
+          "original_text": "2025",
+          "char_limit": 25,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 29.19,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 9.762824803149606,
+          "width_in": 5.7871052055993,
+          "height_in": 0.4439446631671041,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[5]",
+          "role": "body",
+          "original_text": "PRESENTED BY :",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 19.99,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 9.38550634295713,
+          "top_in": 7.597490157480315,
+          "width_in": 1.8972080052493439,
+          "height_in": 0.3229166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[6]",
+          "role": "label",
+          "original_text": "Aldenaire & Partners",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 15.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 9.38550634295713,
+          "top_in": 7.92048009623797,
+          "width_in": 1.8972080052493439,
+          "height_in": 0.25,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[7]",
+          "role": "body",
+          "original_text": "PRESENTED TO :",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 19.99,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 11.773332239720036,
+          "top_in": 7.597490157480315,
+          "width_in": 1.739627077865267,
+          "height_in": 0.3229166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "0/shapes[8]",
+          "role": "label",
+          "original_text": "Arowwai Industries",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 15.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 11.773332239720036,
+          "top_in": 7.92048009623797,
+          "width_in": 1.739627077865267,
+          "height_in": 0.24992782152230972,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    },
+    {
+      "slide_index": 1,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide2.xml",
+      "blocks": [
+        {
+          "block_id": "1/shapes[1]",
+          "role": "title",
+          "original_text": "PROBLEM",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 0.9753969816272966,
+          "top_in": 1.169342738407699,
+          "width_in": 17.899603018372705,
+          "height_in": 2.6077121609798777,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[2]",
+          "role": "body",
+          "original_text": "MARKET SATURATION",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 7.862584208223972,
+          "width_in": 2.6111679790026248,
+          "height_in": 0.389757217847769,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[3]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst. Nam tortor urna, semper ac nulla id, porttitor semper felis. Phasellus blandit eros viverra, ultricies nibh nec, viverra ipsum. Ut nec gravida massa, eu convallis est.",
+          "char_limit": 448,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 1.125,
+          "top_in": 8.36253280839895,
+          "width_in": 5.21170384951881,
+          "height_in": 1.7805993000874891,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[4]",
+          "role": "body",
+          "original_text": "DIGITAL COMPLEXITY",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 7.394148075240595,
+          "top_in": 7.862584208223972,
+          "width_in": 2.605851924759405,
+          "height_in": 0.389757217847769,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[5]",
+          "role": "body",
+          "original_text": "INEFFICIENT OPERATIONS",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 13.66329615048119,
+          "top_in": 7.862584208223972,
+          "width_in": 3.184666447944007,
+          "height_in": 0.389757217847769,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[6]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst. Nam tortor urna, semper ac nulla id, porttitor semper felis. Phasellus blandit eros viverra, ultricies nibh nec, viverra ipsum. Ut nec gravida massa, eu convallis est.",
+          "char_limit": 448,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 7.394148075240595,
+          "top_in": 8.36253280839895,
+          "width_in": 5.21170384951881,
+          "height_in": 1.7805993000874891,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[7]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst. Nam tortor urna, semper ac nulla id, porttitor semper felis. Phasellus blandit eros viverra, ultricies nibh nec, viverra ipsum. Ut nec gravida massa, eu convallis est.",
+          "char_limit": 448,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 13.66329615048119,
+          "top_in": 8.36253280839895,
+          "width_in": 5.21170384951881,
+          "height_in": 1.7805993000874891,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[10]",
+          "role": "body",
+          "original_text": "1.",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 1.2533989501312337,
+          "top_in": 7.17367125984252,
+          "width_in": 0.36064741907261594,
+          "height_in": 0.3957972440944882,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[11]",
+          "role": "body",
+          "original_text": "2.",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 7.5225470253718285,
+          "top_in": 7.17367125984252,
+          "width_in": 0.36064741907261594,
+          "height_in": 0.3957972440944882,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "1/shapes[12]",
+          "role": "body",
+          "original_text": "3.",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 13.791695100612424,
+          "top_in": 7.17367125984252,
+          "width_in": 0.36064741907261594,
+          "height_in": 0.3957972440944882,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    },
+    {
+      "slide_index": 2,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide3.xml",
+      "blocks": [
+        {
+          "block_id": "2/shapes[0]/group[0]",
+          "role": "subtitle",
+          "original_text": "Zenith Central Bank",
+          "char_limit": 104,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.9554811898512686,
+          "width_in": 15.968419728783902,
+          "height_in": 0.5173064304461942,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[0]/group[1]",
+          "role": "title",
+          "original_text": "FINANCIAL PLANNING CYCLE",
+          "char_limit": 58,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Ultra-Bold",
+            "size_pt": 36.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 15.968419728783902,
+          "height_in": 0.8397528433945757,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[7]/group[0]",
+          "role": "body",
+          "original_text": "Understand your\nneeds and goals",
+          "char_limit": 87,
+          "paragraph_count": 2,
+          "bullet_levels": [
+            0,
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.7237237532808399,
+          "width_in": 4.468392388451443,
+          "height_in": 1.0728083989501311,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[7]/group[1]",
+          "role": "title",
+          "original_text": "Stage 1",
+          "char_limit": 23,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 4.468392388451443,
+          "height_in": 0.5983792650918636,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[8]/group[0]",
+          "role": "subtitle",
+          "original_text": "Create funds essential to your survival",
+          "char_limit": 87,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.7237237532808399,
+          "width_in": 4.523166010498688,
+          "height_in": 1.0728083989501311,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[8]/group[1]",
+          "role": "title",
+          "original_text": "Stage 3",
+          "char_limit": 23,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 4.523166010498688,
+          "height_in": 0.5983792650918636,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[9]/group[0]",
+          "role": "body",
+          "original_text": "Monitor your expenses\nand budget",
+          "char_limit": 87,
+          "paragraph_count": 2,
+          "bullet_levels": [
+            0,
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.7237237532808399,
+          "width_in": 4.478849518810149,
+          "height_in": 1.0729166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[9]/group[1]",
+          "role": "title",
+          "original_text": "Stage 5",
+          "char_limit": 23,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 4.478849518810149,
+          "height_in": 0.5983792650918636,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[10]/group[0]",
+          "role": "subtitle",
+          "original_text": "Assess your current financial state",
+          "char_limit": 87,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.7237237532808399,
+          "width_in": 4.4688943569553805,
+          "height_in": 1.0728083989501311,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[10]/group[1]",
+          "role": "title",
+          "original_text": "Stage 2",
+          "char_limit": 23,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 4.4688943569553805,
+          "height_in": 0.5983792650918636,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[11]/group[0]",
+          "role": "subtitle",
+          "original_text": "Follow a schedule of budgeting and stick to it",
+          "char_limit": 84,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.7237237532808399,
+          "width_in": 4.357734033245844,
+          "height_in": 1.0728083989501311,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[11]/group[1]",
+          "role": "title",
+          "original_text": "Stage 4",
+          "char_limit": 22,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 4.357734033245844,
+          "height_in": 0.5983792650918636,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[12]/group[0]",
+          "role": "subtitle",
+          "original_text": "Refine your budget as needed",
+          "char_limit": 87,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron",
+            "size_pt": 20.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": 0.7237237532808399,
+          "width_in": 4.4688943569553805,
+          "height_in": 1.0729166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[12]/group[1]",
+          "role": "title",
+          "original_text": "Stage 6",
+          "char_limit": 23,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.0,
+          "top_in": -0.052083333333333336,
+          "width_in": 4.4688943569553805,
+          "height_in": 0.5983792650918636,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[13]/group[1]",
+          "role": "title",
+          "original_text": "01",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.08333333333333333,
+          "top_in": 0.0,
+          "width_in": 0.7222222222222222,
+          "height_in": 0.8055555555555556,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[14]/group[1]",
+          "role": "title",
+          "original_text": "02",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.08333333333333333,
+          "top_in": 0.0,
+          "width_in": 0.7222222222222222,
+          "height_in": 0.8055555555555556,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[15]/group[1]",
+          "role": "title",
+          "original_text": "03",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.08333333333333333,
+          "top_in": 0.0,
+          "width_in": 0.7222222222222222,
+          "height_in": 0.8055555555555556,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[16]/group[1]",
+          "role": "title",
+          "original_text": "04",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.08333333333333333,
+          "top_in": 0.0,
+          "width_in": 0.7222222222222222,
+          "height_in": 0.8055555555555556,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[17]/group[1]",
+          "role": "title",
+          "original_text": "05",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.08333333333333333,
+          "top_in": 0.0,
+          "width_in": 0.7222222222222222,
+          "height_in": 0.8055555555555556,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "2/shapes[18]/group[1]",
+          "role": "title",
+          "original_text": "06",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Aileron Bold",
+            "size_pt": 24.99,
+            "bold": true,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 0.08333333333333333,
+          "top_in": 0.0,
+          "width_in": 0.7222222222222222,
+          "height_in": 0.8055555555555556,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    },
+    {
+      "slide_index": 3,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide4.xml",
+      "blocks": [
+        {
+          "block_id": "3/shapes[2]",
+          "role": "title",
+          "original_text": "BUSINESS MODEL",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 0.9753969816272966,
+          "top_in": 1.169342738407699,
+          "width_in": 12.46019138232721,
+          "height_in": 4.961806649168854,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[3]",
+          "role": "body",
+          "original_text": "REVENUE STREAMS",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 8.111924759405074,
+          "width_in": 2.86865157480315,
+          "height_in": 0.38967191601049866,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[4]",
+          "role": "label",
+          "original_text": "a. Strategic consulting",
+          "char_limit": 59,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 12.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 8.52953302712161,
+          "width_in": 5.439411636045494,
+          "height_in": 0.19791666666666666,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[5]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst.",
+          "char_limit": 295,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 1.125,
+          "top_in": 8.93793416447944,
+          "width_in": 5.439411636045494,
+          "height_in": 1.1870658355205599,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[6]",
+          "role": "body",
+          "original_text": "b. Execution and implementation",
+          "char_limit": 59,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 12.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 7.280294181977252,
+          "top_in": 8.52953302712161,
+          "width_in": 5.439411636045494,
+          "height_in": 0.19791666666666666,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[7]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst.",
+          "char_limit": 295,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 7.280294181977252,
+          "top_in": 8.93793416447944,
+          "width_in": 5.439411636045494,
+          "height_in": 1.1870658355205599,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[8]",
+          "role": "body",
+          "original_text": "c. Digital transformation packages",
+          "char_limit": 59,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 12.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 13.435588363954505,
+          "top_in": 8.52953302712161,
+          "width_in": 5.439411636045494,
+          "height_in": 0.19791666666666666,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "3/shapes[9]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst.",
+          "char_limit": 295,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 13.435588363954505,
+          "top_in": 8.93793416447944,
+          "width_in": 5.439411636045494,
+          "height_in": 1.1870658355205599,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    },
+    {
+      "slide_index": 4,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide5.xml",
+      "blocks": [
+        {
+          "block_id": "4/shapes[1]",
+          "role": "body",
+          "original_text": "$50M+",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "right"
+          },
+          "left_in": 11.674206036745407,
+          "top_in": 6.34375,
+          "width_in": 7.200793963254593,
+          "height_in": 2.6076399825021874,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "4/shapes[2]",
+          "role": "title",
+          "original_text": "SUCCESS STORIES",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 0.9753969816272966,
+          "top_in": 1.169342738407699,
+          "width_in": 10.69880905511811,
+          "height_in": 4.961806649168854,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "4/shapes[4]",
+          "role": "body",
+          "original_text": "30+",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 0.9753969816272966,
+          "top_in": 7.945005468066491,
+          "width_in": 3.8174606299212597,
+          "height_in": 2.6076399825021874,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "4/shapes[5]",
+          "role": "body",
+          "original_text": "CLIENTS IN 5 COUNTRIES",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 5.536281714785652,
+          "top_in": 9.217483595800525,
+          "width_in": 2.9563473315835522,
+          "height_in": 0.3958333333333333,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "4/shapes[7]",
+          "role": "body",
+          "original_text": "CLIENTS IN 5 COUNTRIES",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 15.279396325459318,
+          "top_in": 9.217483595800525,
+          "width_in": 2.9563473315835522,
+          "height_in": 0.3958333333333333,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "4/shapes[9]",
+          "role": "body",
+          "original_text": "UNICORNS SCALED",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": 15.279396325459318,
+          "top_in": 3.8514227909011374,
+          "width_in": 2.9563473315835522,
+          "height_in": 0.3958333333333333,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "4/shapes[10]",
+          "role": "body",
+          "original_text": "2",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 13.050803805774278,
+          "top_in": 2.5877887139107614,
+          "width_in": 1.5893350831146107,
+          "height_in": 2.6076399825021874,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    },
+    {
+      "slide_index": 5,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide6.xml",
+      "blocks": [
+        {
+          "block_id": "5/shapes[2]",
+          "role": "title",
+          "original_text": "BUSINESS MODEL",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 200.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 0.9753969816272966,
+          "top_in": 1.169342738407699,
+          "width_in": 12.46019138232721,
+          "height_in": 4.961806649168854,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[3]",
+          "role": "body",
+          "original_text": "REVENUE STREAMS",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 23.48,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 8.111924759405074,
+          "width_in": 2.86865157480315,
+          "height_in": 0.38967191601049866,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[4]",
+          "role": "label",
+          "original_text": "a. Strategic consulting",
+          "char_limit": 59,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 12.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 8.52953302712161,
+          "width_in": 5.439411636045494,
+          "height_in": 0.19791666666666666,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[5]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst.",
+          "char_limit": 295,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 1.125,
+          "top_in": 8.93793416447944,
+          "width_in": 5.439411636045494,
+          "height_in": 1.1870658355205599,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[6]",
+          "role": "body",
+          "original_text": "b. Execution and implementation",
+          "char_limit": 59,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 12.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 7.280294181977252,
+          "top_in": 8.52953302712161,
+          "width_in": 5.439411636045494,
+          "height_in": 0.19791666666666666,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[7]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst.",
+          "char_limit": 295,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 7.280294181977252,
+          "top_in": 8.93793416447944,
+          "width_in": 5.439411636045494,
+          "height_in": 1.1870658355205599,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[8]",
+          "role": "body",
+          "original_text": "c. Digital transformation packages",
+          "char_limit": 59,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode Bold",
+            "size_pt": 12.0,
+            "bold": true,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 13.435588363954505,
+          "top_in": 8.52953302712161,
+          "width_in": 5.439411636045494,
+          "height_in": 0.19791666666666666,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "5/shapes[9]",
+          "role": "body",
+          "original_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit mauris. Cras euismod, metus ac finibus finibus, felis dui suscipit purus, a maximus leo ligula at dolor. Morbi et malesuada purus. Phasellus a lacus sit amet urna tempor sollicitudin. Cras pretium tempor elit blandit egestas. Donec sed dignissim augue. Suspendisse ac vulputate leo. Cras aliquet nunc ac velit cursus viverra. In hac habitasse platea dictumst.",
+          "char_limit": 295,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 12.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "justify"
+          },
+          "left_in": 13.435588363954505,
+          "top_in": 8.93793416447944,
+          "width_in": 5.439411636045494,
+          "height_in": 1.1870658355205599,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    },
+    {
+      "slide_index": 6,
+      "layout_name": "Blank",
+      "slide_xml_path": "ppt/slides/slide7.xml",
+      "blocks": [
+        {
+          "block_id": "6/shapes[0]",
+          "role": "body",
+          "original_text": "THANK YOU",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 297.13,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": -1.550751312335958,
+          "top_in": 3.9146128608923885,
+          "width_in": 17.75,
+          "height_in": 3.8610870516185476,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[1]",
+          "role": "title",
+          "original_text": "THANK YOU",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 297.13,
+            "bold": null,
+            "italic": null,
+            "alignment": "center"
+          },
+          "left_in": -1.550751312335958,
+          "top_in": 0.38434492563429573,
+          "width_in": 17.75,
+          "height_in": 3.8610870516185476,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[2]",
+          "role": "body",
+          "original_text": "PHONE",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 19.99,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 11.604208223972003,
+          "top_in": 9.552083333333334,
+          "width_in": 1.8972080052493439,
+          "height_in": 0.3229166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[3]",
+          "role": "label",
+          "original_text": "+123-456-7890",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 15.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 11.604208223972003,
+          "top_in": 9.87507217847769,
+          "width_in": 1.4138746719160105,
+          "height_in": 0.25,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[4]",
+          "role": "body",
+          "original_text": "EMAIL",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 19.99,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 13.501416229221347,
+          "top_in": 9.552011154855643,
+          "width_in": 1.8972080052493439,
+          "height_in": 0.3229166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[5]",
+          "role": "label",
+          "original_text": "hello@reallygreatsite.com",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 15.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 13.501416229221347,
+          "top_in": 9.875,
+          "width_in": 2.3722080052493437,
+          "height_in": 0.25,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[6]",
+          "role": "body",
+          "original_text": "ADDRESS",
+          "char_limit": 20,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Anton",
+            "size_pt": 19.99,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 16.352791994750657,
+          "top_in": 9.552011154855643,
+          "width_in": 1.8972080052493439,
+          "height_in": 0.3229166666666667,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[7]",
+          "role": "label",
+          "original_text": "123 Anywhere St., Any City",
+          "char_limit": 22,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 15.0,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 16.352791994750657,
+          "top_in": 9.875,
+          "width_in": 2.5222080052493436,
+          "height_in": 0.25,
+          "is_placeholder": false,
+          "placeholder_type": null
+        },
+        {
+          "block_id": "6/shapes[8]",
+          "role": "body",
+          "original_text": "2025",
+          "char_limit": 25,
+          "paragraph_count": 1,
+          "bullet_levels": [
+            0
+          ],
+          "style_hint": {
+            "font_name": "Arial Unicode",
+            "size_pt": 29.19,
+            "bold": null,
+            "italic": null,
+            "alignment": "left"
+          },
+          "left_in": 1.125,
+          "top_in": 9.762824803149606,
+          "width_in": 5.7871052055993,
+          "height_in": 0.4439446631671041,
+          "is_placeholder": false,
+          "placeholder_type": null
+        }
+      ],
+      "charts": [],
+      "non_text_shapes": []
+    }
+  ]
+}

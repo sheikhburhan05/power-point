@@ -1,0 +1,28 @@
+{
+  "topic": "AI in Healthcare",
+  "mappings": [
+    {
+      "block_id": "0/shapes[0]",
+      "new_text": "AI in Healthcare Overview",
+      "reasoning": "Title replacement"
+    }
+  ],
+  "chart_mappings": [
+    {
+      "block_id": "0/shapes[1]",
+      "title": "AI Adoption by Quarter",
+      "categories": ["Q1", "Q2", "Q3", "Q4"],
+      "series": [
+        {
+          "name": "Hospitals",
+          "values": [15, 22, 28, 35]
+        },
+        {
+          "name": "Clinics",
+          "values": [8, 12, 18, 24]
+        }
+      ],
+      "reasoning": "Healthcare AI adoption chart"
+    }
+  ]
+}

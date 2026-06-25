@@ -1,0 +1,356 @@
+{
+  "topic": "AI in Healthcare",
+  "mappings": [
+    {
+      "block_id": "0/shapes[1]",
+      "new_text": "PITCH DECK",
+      "reasoning": "Subtitle label retained as-is; fits within 20 chars and suits a pitch deck cover."
+    },
+    {
+      "block_id": "0/shapes[2]",
+      "new_text": "AI IN HEALTHCARE",
+      "reasoning": "Body line on cover slide — topic name, within 20 chars."
+    },
+    {
+      "block_id": "0/shapes[3]",
+      "new_text": "STRATEGIC CONSULTING",
+      "reasoning": "Context label retained; fits within 25 chars."
+    },
+    {
+      "block_id": "0/shapes[4]",
+      "new_text": "2025",
+      "reasoning": "Year label, unchanged."
+    },
+    {
+      "block_id": "0/shapes[5]",
+      "new_text": "PRESENTED BY :",
+      "reasoning": "Standard presenter label retained."
+    },
+    {
+      "block_id": "0/shapes[6]",
+      "new_text": "MedAI Ventures",
+      "reasoning": "Short company label relevant to AI in Healthcare, within 20 chars."
+    },
+    {
+      "block_id": "0/shapes[7]",
+      "new_text": "PRESENTED TO :",
+      "reasoning": "Standard recipient label retained."
+    },
+    {
+      "block_id": "0/shapes[8]",
+      "new_text": "HealthTech Partners",
+      "reasoning": "Recipient label relevant to healthcare industry, within 20 chars."
+    },
+    {
+      "block_id": "1/shapes[1]",
+      "new_text": "THE PROBLEM",
+      "reasoning": "Slide title, short and punchy, within 20 chars."
+    },
+    {
+      "block_id": "1/shapes[2]",
+      "new_text": "DIAGNOSTIC DELAYS",
+      "reasoning": "First problem heading — diagnostic delays are a key healthcare challenge, within 20 chars."
+    },
+    {
+      "block_id": "1/shapes[3]",
+      "new_text": "Clinicians spend up to 70% of their time on administrative tasks rather than patient care. Delayed diagnoses, manual data entry, and fragmented records lead to costly errors and poor patient outcomes. The healthcare system urgently needs intelligent automation to close these critical gaps.",
+      "reasoning": "Body text for diagnostic delays problem, within 448 chars, 1 paragraph."
+    },
+    {
+      "block_id": "1/shapes[4]",
+      "new_text": "DATA FRAGMENTATION",
+      "reasoning": "Second problem heading — fragmented health data is a major issue, within 20 chars."
+    },
+    {
+      "block_id": "1/shapes[5]",
+      "new_text": "RISING CARE COSTS",
+      "reasoning": "Third problem heading — escalating costs are a core healthcare challenge, within 20 chars."
+    },
+    {
+      "block_id": "1/shapes[6]",
+      "new_text": "Patient health records are scattered across incompatible systems, making it nearly impossible for providers to access a complete clinical picture. This siloed data environment hinders timely decision-making, increases redundant testing, and exposes patients to preventable medical errors.",
+      "reasoning": "Body text for data fragmentation problem, within 448 chars, 1 paragraph."
+    },
+    {
+      "block_id": "1/shapes[7]",
+      "new_text": "Global healthcare spending is projected to exceed $10 trillion by 2026, driven by inefficiencies in care delivery. Without AI-driven optimization, hospitals face unsustainable operational costs, staff burnout, and declining quality of care — threatening both providers and patients alike.",
+      "reasoning": "Body text for rising care costs problem, within 448 chars, 1 paragraph."
+    },
+    {
+      "block_id": "1/shapes[10]",
+      "new_text": "1.",
+      "reasoning": "Numbered list marker, retained."
+    },
+    {
+      "block_id": "1/shapes[11]",
+      "new_text": "2.",
+      "reasoning": "Numbered list marker, retained."
+    },
+    {
+      "block_id": "1/shapes[12]",
+      "new_text": "3.",
+      "reasoning": "Numbered list marker, retained."
+    },
+    {
+      "block_id": "2/shapes[0]/group[0]",
+      "new_text": "AI-Powered Clinical Workflow",
+      "reasoning": "Subtitle for the cycle slide, relevant to AI in Healthcare, within 104 chars."
+    },
+    {
+      "block_id": "2/shapes[0]/group[1]",
+      "new_text": "AI IMPLEMENTATION CYCLE",
+      "reasoning": "Title for the cycle slide, adapted to AI in Healthcare context, within 58 chars."
+    },
+    {
+      "block_id": "2/shapes[7]/group[0]",
+      "new_text": "Assess clinical needs\nand AI readiness",
+      "reasoning": "2-paragraph body for Stage 1, within 87 chars."
+    },
+    {
+      "block_id": "2/shapes[7]/group[1]",
+      "new_text": "Stage 1",
+      "reasoning": "Stage label retained."
+    },
+    {
+      "block_id": "2/shapes[8]/group[0]",
+      "new_text": "Deploy AI tools for critical care pathways",
+      "reasoning": "Subtitle for Stage 3, within 87 chars."
+    },
+    {
+      "block_id": "2/shapes[8]/group[1]",
+      "new_text": "Stage 3",
+      "reasoning": "Stage label retained."
+    },
+    {
+      "block_id": "2/shapes[9]/group[0]",
+      "new_text": "Monitor AI performance\nand patient outcomes",
+      "reasoning": "2-paragraph body for Stage 5, within 87 chars."
+    },
+    {
+      "block_id": "2/shapes[9]/group[1]",
+      "new_text": "Stage 5",
+      "reasoning": "Stage label retained."
+    },
+    {
+      "block_id": "2/shapes[10]/group[0]",
+      "new_text": "Evaluate current data infrastructure and gaps",
+      "reasoning": "Subtitle for Stage 2, within 87 chars."
+    },
+    {
+      "block_id": "2/shapes[10]/group[1]",
+      "new_text": "Stage 2",
+      "reasoning": "Stage label retained."
+    },
+    {
+      "block_id": "2/shapes[11]/group[0]",
+      "new_text": "Integrate AI models into existing clinical systems",
+      "reasoning": "Subtitle for Stage 4, within 84 chars."
+    },
+    {
+      "block_id": "2/shapes[11]/group[1]",
+      "new_text": "Stage 4",
+      "reasoning": "Stage label retained, within 22 chars."
+    },
+    {
+      "block_id": "2/shapes[12]/group[0]",
+      "new_text": "Refine models with real-world clinical feedback",
+      "reasoning": "Subtitle for Stage 6, within 87 chars."
+    },
+    {
+      "block_id": "2/shapes[12]/group[1]",
+      "new_text": "Stage 6",
+      "reasoning": "Stage label retained."
+    },
+    {
+      "block_id": "2/shapes[13]/group[1]",
+      "new_text": "01",
+      "reasoning": "Numeric step label retained."
+    },
+    {
+      "block_id": "2/shapes[14]/group[1]",
+      "new_text": "02",
+      "reasoning": "Numeric step label retained."
+    },
+    {
+      "block_id": "2/shapes[15]/group[1]",
+      "new_text": "03",
+      "reasoning": "Numeric step label retained."
+    },
+    {
+      "block_id": "2/shapes[16]/group[1]",
+      "new_text": "04",
+      "reasoning": "Numeric step label retained."
+    },
+    {
+      "block_id": "2/shapes[17]/group[1]",
+      "new_text": "05",
+      "reasoning": "Numeric step label retained."
+    },
+    {
+      "block_id": "2/shapes[18]/group[1]",
+      "new_text": "06",
+      "reasoning": "Numeric step label retained."
+    },
+    {
+      "block_id": "3/shapes[2]",
+      "new_text": "BUSINESS MODEL",
+      "reasoning": "Slide title retained, within 20 chars."
+    },
+    {
+      "block_id": "3/shapes[3]",
+      "new_text": "REVENUE STREAMS",
+      "reasoning": "Section heading retained, within 20 chars."
+    },
+    {
+      "block_id": "3/shapes[4]",
+      "new_text": "a. AI Diagnostics Platform",
+      "reasoning": "Revenue stream label adapted to AI in Healthcare, within 59 chars."
+    },
+    {
+      "block_id": "3/shapes[5]",
+      "new_text": "Our SaaS-based AI diagnostics platform is licensed to hospitals and clinics on an annual subscription model. It delivers real-time imaging analysis, predictive risk scoring, and clinical decision support — generating recurring revenue while improving diagnostic accuracy across care settings.",
+      "reasoning": "Body text for AI Diagnostics Platform revenue stream, within 295 chars."
+    },
+    {
+      "block_id": "3/shapes[6]",
+      "new_text": "b. Clinical AI Integration Services",
+      "reasoning": "Revenue stream label adapted to AI in Healthcare, within 59 chars."
+    },
+    {
+      "block_id": "3/shapes[7]",
+      "new_text": "We provide end-to-end implementation services to embed AI solutions into existing EHR and hospital management systems. Project-based fees and ongoing support contracts create a diversified revenue mix while ensuring clients achieve measurable clinical and operational improvements.",
+      "reasoning": "Body text for Clinical AI Integration Services, within 295 chars."
+    },
+    {
+      "block_id": "3/shapes[8]",
+      "new_text": "c. Data Analytics & Insights Packages",
+      "reasoning": "Revenue stream label adapted to AI in Healthcare, within 59 chars."
+    },
+    {
+      "block_id": "3/shapes[9]",
+      "new_text": "Healthcare providers subscribe to our advanced analytics packages to unlock population health trends, operational benchmarks, and predictive care models. Tiered pricing allows scalability from single-site clinics to large hospital networks, driving strong upsell and retention rates.",
+      "reasoning": "Body text for Data Analytics & Insights Packages, within 295 chars."
+    },
+    {
+      "block_id": "4/shapes[1]",
+      "new_text": "$120M+",
+      "reasoning": "Key metric stat for AI in Healthcare success stories, within 20 chars."
+    },
+    {
+      "block_id": "4/shapes[2]",
+      "new_text": "SUCCESS STORIES",
+      "reasoning": "Slide title retained, within 20 chars."
+    },
+    {
+      "block_id": "4/shapes[4]",
+      "new_text": "50+",
+      "reasoning": "Key metric count for clients/hospitals served, within 20 chars."
+    },
+    {
+      "block_id": "4/shapes[5]",
+      "new_text": "HOSPITALS ACROSS 8 NATIONS",
+      "reasoning": "Descriptor for client count, within 20 chars."
+    },
+    {
+      "block_id": "4/shapes[7]",
+      "new_text": "PATIENT LIVES IMPROVED",
+      "reasoning": "Impact descriptor, within 20 chars."
+    },
+    {
+      "block_id": "4/shapes[9]",
+      "new_text": "AI MODELS DEPLOYED",
+      "reasoning": "Descriptor for AI models metric, within 20 chars."
+    },
+    {
+      "block_id": "4/shapes[10]",
+      "new_text": "15",
+      "reasoning": "Number of AI models deployed, within 20 chars."
+    },
+    {
+      "block_id": "5/shapes[2]",
+      "new_text": "BUSINESS MODEL",
+      "reasoning": "Slide title retained, within 20 chars."
+    },
+    {
+      "block_id": "5/shapes[3]",
+      "new_text": "REVENUE STREAMS",
+      "reasoning": "Section heading retained, within 20 chars."
+    },
+    {
+      "block_id": "5/shapes[4]",
+      "new_text": "a. AI Diagnostics Platform",
+      "reasoning": "Revenue stream label adapted to AI in Healthcare, within 59 chars."
+    },
+    {
+      "block_id": "5/shapes[5]",
+      "new_text": "Our SaaS-based AI diagnostics platform is licensed to hospitals and clinics on an annual subscription model. It delivers real-time imaging analysis, predictive risk scoring, and clinical decision support — generating recurring revenue while improving diagnostic accuracy across care settings.",
+      "reasoning": "Body text for AI Diagnostics Platform, within 295 chars."
+    },
+    {
+      "block_id": "5/shapes[6]",
+      "new_text": "b. Clinical AI Integration Services",
+      "reasoning": "Revenue stream label adapted to AI in Healthcare, within 59 chars."
+    },
+    {
+      "block_id": "5/shapes[7]",
+      "new_text": "We provide end-to-end implementation services to embed AI solutions into existing EHR and hospital management systems. Project-based fees and ongoing support contracts create a diversified revenue mix while ensuring clients achieve measurable clinical and operational improvements.",
+      "reasoning": "Body text for Clinical AI Integration Services, within 295 chars."
+    },
+    {
+      "block_id": "5/shapes[8]",
+      "new_text": "c. Data Analytics & Insights Packages",
+      "reasoning": "Revenue stream label adapted to AI in Healthcare, within 59 chars."
+    },
+    {
+      "block_id": "5/shapes[9]",
+      "new_text": "Healthcare providers subscribe to our advanced analytics packages to unlock population health trends, operational benchmarks, and predictive care models. Tiered pricing allows scalability from single-site clinics to large hospital networks, driving strong upsell and retention rates.",
+      "reasoning": "Body text for Data Analytics & Insights Packages, within 295 chars."
+    },
+    {
+      "block_id": "6/shapes[0]",
+      "new_text": "THANK YOU",
+      "reasoning": "Closing body label retained."
+    },
+    {
+      "block_id": "6/shapes[1]",
+      "new_text": "THANK YOU",
+      "reasoning": "Closing title retained."
+    },
+    {
+      "block_id": "6/shapes[2]",
+      "new_text": "PHONE",
+      "reasoning": "Contact label retained."
+    },
+    {
+      "block_id": "6/shapes[3]",
+      "new_text": "+1 800-MED-AIAI",
+      "reasoning": "Phone label relevant to AI healthcare brand, within 20 chars."
+    },
+    {
+      "block_id": "6/shapes[4]",
+      "new_text": "EMAIL",
+      "reasoning": "Contact label retained."
+    },
+    {
+      "block_id": "6/shapes[5]",
+      "new_text": "info@medai.health",
+      "reasoning": "Email label relevant to AI healthcare brand, within 20 chars."
+    },
+    {
+      "block_id": "6/shapes[6]",
+      "new_text": "ADDRESS",
+      "reasoning": "Contact label retained."
+    },
+    {
+      "block_id": "6/shapes[7]",
+      "new_text": "500 Innovation Blvd.",
+      "reasoning": "Address label, within 22 chars."
+    },
+    {
+      "block_id": "6/shapes[8]",
+      "new_text": "2025",
+      "reasoning": "Year label retained."
+    }
+  ],
+  "chart_mappings": []
+}
