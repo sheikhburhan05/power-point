@@ -46,10 +46,13 @@ def _layout_summary(layout: LayoutDoc) -> str:
 @traceable(name="generate_content", run_type="chain")
 def generate_content(
     layout: LayoutDoc,
-    topic: str,
+    topic: str | None = None,
     source_text: str | None = None,
     model: str = "claude-sonnet-4-6",
 ) -> ContentMapping:
+    if not topic and not source_text:
+        raise ValueError("generate_content requires topic and/or source_text")
+
     block_count = sum(len(s.blocks) for s in layout.slides)
     chart_count = sum(len(s.charts) for s in layout.slides)
     llm = ChatAnthropic(model=model, temperature=0.3)
@@ -59,17 +62,19 @@ def generate_content(
             ("system", CONTENT_PROMPT),
             (
                 "human",
-                "Topic: {topic}\n\n"
-                "Source material (optional):\n{source_text}\n\n"
+                "{topic_line}"
+                "Source material:\n{source_text}\n\n"
                 "Slide structure to fill:\n{layout_json}",
             ),
         ]
     )
     chain = prompt | structured_llm
+    topic_line = f"Topic: {topic}\n\n" if topic else ""
+    source_payload = source_text or "(none — infer content from the slide structure)"
     result = chain.invoke(
         {
-            "topic": topic,
-            "source_text": source_text or "(none — generate from topic)",
+            "topic_line": topic_line,
+            "source_text": source_payload,
             "layout_json": _layout_summary(layout),
         },
         config={
@@ -85,10 +90,19 @@ def generate_content(
             },
         },
     )
+    resolved_topic = topic or (result.topic if isinstance(result, ContentMapping) else None)
     if isinstance(result, ContentMapping):
-        result.topic = topic
+        if resolved_topic:
+            result.topic = resolved_topic
+        elif not result.topic:
+            result.topic = "Generated content"
         return result
-    return ContentMapping.model_validate(result)
+    mapping = ContentMapping.model_validate(result)
+    if resolved_topic:
+        mapping.topic = resolved_topic
+    elif not mapping.topic:
+        mapping.topic = "Generated content"
+    return mapping
 
 
 def load_content_mapping(path: str | Path) -> ContentMapping:

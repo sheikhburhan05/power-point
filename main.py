@@ -67,7 +67,7 @@ def extract(
 def _resolve_mapping(
     layout,
     *,
-    topic: str,
+    topic: str | None,
     source_text: Path | None,
     content_json: Path | None,
     structured_content: Path | None,
@@ -79,8 +79,17 @@ def _resolve_mapping(
         doc = load_structured_content(structured_content)
         typer.echo(f"Mapped structured content from {structured_content} (no LLM)")
         return map_structured_content(layout, doc)
+    if not topic and not source_text:
+        raise typer.BadParameter(
+            "Provide one of: --topic, --source-text, --structured-content, or --content-json"
+        )
     source = source_text.read_text(encoding="utf-8") if source_text else None
-    typer.echo(f"Generated content via Claude for topic: {topic}")
+    if topic and source_text:
+        typer.echo(f"Generated content via Claude for topic: {topic} (with {source_text})")
+    elif topic:
+        typer.echo(f"Generated content via Claude for topic: {topic}")
+    else:
+        typer.echo(f"Generated content via Claude from source: {source_text}")
     return generate_content(layout, topic=topic, source_text=source)
 
 
@@ -88,7 +97,7 @@ def _resolve_mapping(
 def generate(
     layout_path: Path = typer.Option(..., "--layout", "-l"),
     out: Path = typer.Option(..., "--out", "-o"),
-    topic: str = typer.Option("AI in Healthcare", "--topic", "-t"),
+    topic: str | None = typer.Option(None, "--topic", "-t", help="Topic for Claude generation"),
     source_text: Path | None = typer.Option(None, "--source-text", "-s"),
     content_json: Path | None = typer.Option(
         None, "--content-json", help="Pre-built content_mapping.json (block_id -> new_text)"
@@ -156,7 +165,7 @@ def validate(
 def _run_pipeline(
     input: Path,
     out_dir: Path,
-    topic: str,
+    topic: str | None,
     source_text: Path | None,
     content_json: Path | None,
     structured_content: Path | None,
@@ -200,7 +209,7 @@ def _run_pipeline(
 def run(
     input: Path = typer.Option(..., "--input", "-i"),
     out_dir: Path = typer.Option(Path("output"), "--out-dir", "-d"),
-    topic: str = typer.Option("AI in Healthcare", "--topic", "-t"),
+    topic: str | None = typer.Option(None, "--topic", "-t", help="Topic for Claude generation"),
     source_text: Path | None = typer.Option(None, "--source-text", "-s"),
     content_json: Path | None = typer.Option(
         None, "--content-json", help="Pre-built content_mapping.json"
