@@ -16,6 +16,10 @@ class StyleHint(BaseModel):
     bold: bool | None = None
     italic: bool | None = None
     alignment: str | None = None
+    color_rgb: str | None = None
+    color_theme: str | None = None
+    color_type: str | None = None  # rgb | scheme | preset | inherit
+    color_brightness: float | None = None  # scheme/tint modifier (-1..1), e.g. -0.9 for near-black bg2
 
 
 class TextBlock(BaseModel):
@@ -96,6 +100,23 @@ class ContentMapping(BaseModel):
     topic: str
     mappings: list[BlockMapping] = Field(default_factory=list)
     chart_mappings: list[ChartMapping] = Field(default_factory=list)
+
+
+class StructuredBullet(BaseModel):
+    header: str
+    content: str
+
+
+class StructuredSection(BaseModel):
+    subtitle: str
+    bullets: list[StructuredBullet] = Field(default_factory=list)
+
+
+class StructuredContentDoc(BaseModel):
+    """Pre-written slide content — mapped to layout blocks without LLM."""
+
+    title: str
+    content_sections: list[StructuredSection] = Field(default_factory=list)
 
 
 class BlockValidation(BaseModel):

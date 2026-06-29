@@ -12,6 +12,7 @@ from pptx.util import Emu
 from langsmith import traceable
 
 from src.extract.chart_extractor import extract_chart_block
+from src.font_color import _best_color_from_runs
 from src.models import ChartBlock, LayoutDoc, NonTextShape, Role, SlideLayout, StyleHint, TextBlock
 
 EMU_PER_INCH = 914400
@@ -75,16 +76,38 @@ def _extract_style_hint(shape) -> StyleHint:
     text_frame = _get_text_frame(shape)
     if text_frame is None:
         return StyleHint()
-    for para in text_frame.paragraphs:
-        for run in para.runs:
-            return StyleHint(
-                font_name=run.font.name,
-                size_pt=run.font.size.pt if run.font.size else DEFAULT_FONT_PT,
-                bold=run.font.bold,
-                italic=run.font.italic,
-                alignment=_alignment_name(para.alignment),
-            )
+
+    all_runs = [
+        run
+        for para in text_frame.paragraphs
+        for run in para.runs
+        if run.text.strip()
+    ]
+    if not all_runs:
+        all_runs = [
+            run for para in text_frame.paragraphs for run in para.runs
+        ]
+
+    color_rgb, color_theme, color_type, color_brightness = _best_color_from_runs(all_runs or [])
+    dominant = all_runs[0] if all_runs else None
     first_para = text_frame.paragraphs[0] if text_frame.paragraphs else None
+
+    if dominant:
+        return StyleHint(
+            font_name=dominant.font.name,
+            size_pt=dominant.font.size.pt if dominant.font.size else DEFAULT_FONT_PT,
+            bold=dominant.font.bold,
+            italic=dominant.font.italic,
+            alignment=_alignment_name(
+                next((p.alignment for p in text_frame.paragraphs if p.runs), None)
+                or (first_para.alignment if first_para else None)
+            ),
+            color_rgb=color_rgb,
+            color_theme=color_theme,
+            color_type=color_type,
+            color_brightness=color_brightness,
+        )
+
     return StyleHint(alignment=_alignment_name(first_para.alignment) if first_para else None)
 
 

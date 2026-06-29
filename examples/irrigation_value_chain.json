@@ -1,0 +1,71 @@
+{
+  "title": "Precision Irrigation Hardware Value Chain for KSA",
+  "content_sections": [
+    {
+      "subtitle": "Primary Activities",
+      "bullets": [
+        {
+          "header": "Product design and localization",
+          "content": "Develops irrigation hardware adapted to KSA climate, soils, and water‑efficiency priorities, ensuring differentiated features and alignment with Vision 2030 and national RDI needs."
+        },
+        {
+          "header": "Component sourcing",
+          "content": "Secures sensors, valves, controllers, plastics, and electronics from certified local and global suppliers, balancing cost, quality, and localization targets."
+        },
+        {
+          "header": "Manufacturing and assembly",
+          "content": "Executes localized production and assembly of irrigation hardware with scalable capacity, quality controls, and unit‑economics targets required for profitable growth."
+        },
+        {
+          "header": "Distribution and channel management",
+          "content": "Manages dealer networks, agri‑retail partners, and direct sales teams to ensure national geographic coverage and penetration of priority customer segments."
+        },
+        {
+          "header": "Installation and commissioning",
+          "content": "Implements on‑farm hardware deployment, calibration, and integration with digital services to ensure reliable performance from day one."
+        },
+        {
+          "header": "After‑sales service and spares",
+          "content": "Provides maintenance, spare parts, SLAs, and troubleshooting that protect device uptime, customer satisfaction, and long‑term margins."
+        },
+        {
+          "header": "Performance monitoring and customer success",
+          "content": "Delivers analytics, irrigation scheduling support, and continuous performance tracking to meet water‑efficiency KPIs, drive customer trust, and support retention."
+        }
+      ]
+    },
+    {
+      "subtitle": "Secondary Activities",
+      "bullets": [
+        {
+          "header": "R&D",
+          "content": "Enhances hardware durability and digital integration aligned with KSA water‑efficiency and food‑security objectives."
+        },
+        {
+          "header": "Procurement",
+          "content": "Optimizes supplier selection, cost control, and localization of strategic components."
+        },
+        {
+          "header": "Quality control",
+          "content": "Ensures product reliability through testing of sensors, controllers, and assembly processes."
+        },
+        {
+          "header": "Marketing",
+          "content": "Builds trust through performance evidence, water‑savings data, and targeted campaigns for growers and distributors."
+        },
+        {
+          "header": "Finance",
+          "content": "Manages pricing, working capital, unit‑economics tracking, and investment plans supporting scalable growth."
+        },
+        {
+          "header": "HR",
+          "content": "Develops technical, field‑service, and engineering talent essential for localization and customer support."
+        },
+        {
+          "header": "IT systems",
+          "content": "Supports internal ERP, CRM, and analytics platforms enabling efficient operations and customer‑data management."
+        }
+      ]
+    }
+  ]
+}

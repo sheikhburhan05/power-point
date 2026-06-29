@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT))
 from src.apply.slide_applier import apply_content
 from src.extract.layout_extractor import extract_layout
 from src.generate.content_generator import generate_content, load_content_mapping
+from src.generate.structured_mapper import load_structured_content, map_structured_content
 from src.tracing import configure_tracing, tracing_status
 from src.validate.validator import validate_output
 
@@ -63,30 +64,55 @@ def extract(
     typer.echo(f"Extracted {sum(len(s.blocks) for s in layout.slides)} text blocks -> {out}")
 
 
+def _resolve_mapping(
+    layout,
+    *,
+    topic: str,
+    source_text: Path | None,
+    content_json: Path | None,
+    structured_content: Path | None,
+):
+    if content_json:
+        typer.echo(f"Loaded content mapping from {content_json}")
+        return load_content_mapping(content_json)
+    if structured_content:
+        doc = load_structured_content(structured_content)
+        typer.echo(f"Mapped structured content from {structured_content} (no LLM)")
+        return map_structured_content(layout, doc)
+    source = source_text.read_text(encoding="utf-8") if source_text else None
+    typer.echo(f"Generated content via Claude for topic: {topic}")
+    return generate_content(layout, topic=topic, source_text=source)
+
+
 @app.command()
 def generate(
     layout_path: Path = typer.Option(..., "--layout", "-l"),
     out: Path = typer.Option(..., "--out", "-o"),
     topic: str = typer.Option("AI in Healthcare", "--topic", "-t"),
     source_text: Path | None = typer.Option(None, "--source-text", "-s"),
-    content_json: Path | None = typer.Option(None, "--content-json", help="Skip LLM; use pre-built mapping"),
+    content_json: Path | None = typer.Option(
+        None, "--content-json", help="Pre-built content_mapping.json (block_id -> new_text)"
+    ),
+    structured_content: Path | None = typer.Option(
+        None,
+        "--structured-content",
+        help="Pre-written content JSON (title + sections + bullets); no LLM",
+    ),
     trace: bool = typer.Option(False, "--trace", help="Enable LangSmith tracing"),
     langsmith_project: str = typer.Option("power-point-pipeline", "--langsmith-project"),
 ) -> None:
-    """Generate content mapping via Claude or load from JSON."""
+    """Generate content mapping via Claude, structured JSON, or pre-built mapping."""
     _init_tracing(trace, langsmith_project)
     from src.models import LayoutDoc
 
     layout = LayoutDoc.model_validate_json(layout_path.read_text(encoding="utf-8"))
-
-    if content_json:
-        mapping = load_content_mapping(content_json)
-        typer.echo(f"Loaded content mapping from {content_json}")
-    else:
-        source = source_text.read_text(encoding="utf-8") if source_text else None
-        mapping = generate_content(layout, topic=topic, source_text=source)
-        typer.echo(f"Generated content via Claude for topic: {topic}")
-
+    mapping = _resolve_mapping(
+        layout,
+        topic=topic,
+        source_text=source_text,
+        content_json=content_json,
+        structured_content=structured_content,
+    )
     _write_json(out, mapping)
     typer.echo(f"Wrote {out}")
 
@@ -133,6 +159,7 @@ def _run_pipeline(
     topic: str,
     source_text: Path | None,
     content_json: Path | None,
+    structured_content: Path | None,
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     layout_path = out_dir / "layout.json"
@@ -145,11 +172,13 @@ def _run_pipeline(
     _write_json(layout_path, layout)
 
     typer.echo("Step 2/4: Generating content...")
-    if content_json:
-        mapping = load_content_mapping(content_json)
-    else:
-        source = source_text.read_text(encoding="utf-8") if source_text else None
-        mapping = generate_content(layout, topic=topic, source_text=source)
+    mapping = _resolve_mapping(
+        layout,
+        topic=topic,
+        source_text=source_text,
+        content_json=content_json,
+        structured_content=structured_content,
+    )
     _write_json(mapping_path, mapping)
 
     typer.echo("Step 3/4: Applying content to PPTX...")
@@ -173,13 +202,22 @@ def run(
     out_dir: Path = typer.Option(Path("output"), "--out-dir", "-d"),
     topic: str = typer.Option("AI in Healthcare", "--topic", "-t"),
     source_text: Path | None = typer.Option(None, "--source-text", "-s"),
-    content_json: Path | None = typer.Option(None, "--content-json"),
+    content_json: Path | None = typer.Option(
+        None, "--content-json", help="Pre-built content_mapping.json"
+    ),
+    structured_content: Path | None = typer.Option(
+        None,
+        "--structured-content",
+        help="Pre-written JSON: title + content_sections + bullets (no LLM)",
+    ),
     trace: bool = typer.Option(False, "--trace", help="Enable LangSmith tracing"),
     langsmith_project: str = typer.Option("power-point-pipeline", "--langsmith-project"),
 ) -> None:
     """Run full pipeline: extract -> generate -> apply -> validate."""
     _init_tracing(trace, langsmith_project)
-    _run_pipeline(input, out_dir, topic, source_text, content_json)
+    _run_pipeline(
+        input, out_dir, topic, source_text, content_json, structured_content
+    )
 
 
 if __name__ == "__main__":
